@@ -10,8 +10,8 @@ which is the basis for my anagram and scrabble calls.
 
 ##installation
 
-Just drop the folder into your slackbot folder, add 'puzzle-plugins'
-to PLUGINS in local_settings.py and away you go.
+Just drop the folder into your slackbot folder, add `'puzzle-plugins'`
+to `PLUGINS` in `local_settings.py` and away you go.
 
 python3 is required.
 
@@ -36,3 +36,11 @@ python3 is required.
 ###convenience commands
 * md5, sha256, ascii2hex, hex2int, ascii2b64, b642ascii, reverse
 
+##TODO
+
+* atbash
+* keyed caesar
+* other basic ciphers: columnar, etc
+* bin2hex, hex2 bin
+* frontend for pycrypto
+* improve freq substitution approaches

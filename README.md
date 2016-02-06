@@ -10,8 +10,8 @@ which is the basis for my anagram and scrabble calls.
 
 ##installation
 
-Just drop the folder into your slackbot folder and it should
-find and load them on run.
+Just drop the folder into your slackbot folder, add 'puzzle-plugins'
+to PLUGINS in local_settings.py and away you go.
 
 python3 is required.
 

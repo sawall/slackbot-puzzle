@@ -44,3 +44,6 @@ python3 is required.
 * bin2hex, hex2 bin
 * frontend for pycrypto
 * improve freq substitution approaches
+* streamline anagram + scrabble by saving a copy of the multiplicative prime
+  representation of the system dictionary and referring to that instead of
+  computing it every time
